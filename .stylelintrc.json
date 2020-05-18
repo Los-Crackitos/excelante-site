@@ -1,0 +1,5 @@
+{
+  "plugins": ["stylelint-scss"],
+  "syntax": "scss",
+  "extends": "stylelint-config-standard"
+}
