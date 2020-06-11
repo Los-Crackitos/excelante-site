@@ -1,0 +1,31 @@
+.main-content {
+  background-color: white;
+
+  .description {
+    background: #00cba9;
+    padding: 100px 100px 0;
+
+    .desc-col1 {
+      h1 {
+        margin-bottom: 30px;
+        font-size: 4em;
+      }
+
+      p {
+        display: block;
+        font-size: 1.5em;
+      }
+
+      h1,
+      p,
+      strong {
+        color: #fff;
+      }
+    }
+
+    .desc-col2 {
+      background-color: rgba($color: #000, $alpha: 0.2);
+      border-radius: 20px;
+    }
+  }
+}

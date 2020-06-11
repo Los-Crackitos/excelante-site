@@ -1,3 +1,21 @@
 .text {
   text-align: center;
+  align-self: center;
+  justify-content: center;
+
+  &:first-of-type {
+    display: flex;
+  }
+
+  div {
+    margin: 0 auto;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  .links {
+    padding: 0;
+  }
 }
