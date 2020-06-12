@@ -18,7 +18,9 @@ const Navbar = () => {
       <Row justify="end">
         <Menu mode="horizontal" style={{ background: '#00cba9', color: '#fff' }}>
           <Menu.Item key="tools" title="Tools" icon={<ToolOutlined />}>
-            Tools
+            <Link href="#tools">
+              <a>Tools</a>
+            </Link>
           </Menu.Item>
           <Menu.Item key="about" title="About" icon={<InfoCircleOutlined />}>
             <Link href="/about">
