@@ -1,12 +1,16 @@
 import React from 'react';
 import AceEditor from "react-ace";
 
+
+import "ace-builds/src-noconflict/mode-json";
+import "ace-builds/src-noconflict/theme-textmate";
+
 const JsonEditor = ({value, onValueChange}) => {
   return (
     <AceEditor
       placeholder="Insert your json here"
       mode="json"
-      theme="github"
+      theme="textmate"
       name="blah2"
       fontSize={12}
       showPrintMargin={true}
