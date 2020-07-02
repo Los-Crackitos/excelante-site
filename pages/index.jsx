@@ -3,6 +3,7 @@ import { Button, Col, Layout, Row, Typography } from 'antd';
 import { ArrowDownOutlined } from '@ant-design/icons';
 import Navbar from '../components/navbar.jsx';
 import Converter from '../components/converter.jsx';
+import Writer from '../components/writer.jsx';
 import Footer from '../components/footer.jsx';
 import PageHead from '../components/_shared/pageHead.jsx';
 import '../styles/index.scss';
@@ -34,6 +35,7 @@ export default function Home() {
           </Layout>
           <Wave />
           <h2 id="tools">Tools</h2>
+          <Writer />
           <Converter />
         </Content>
         <Footer />
